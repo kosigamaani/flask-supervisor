@@ -1,0 +1,7 @@
+  Build image
+  ============
+  docker image build --progress=plain -t nginx-super .
+  
+  Start Container
+  ================
+  docker run -p 80:80 -d nginx-super
